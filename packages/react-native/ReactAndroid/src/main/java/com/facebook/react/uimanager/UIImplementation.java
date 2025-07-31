@@ -117,7 +117,7 @@ public class UIImplementation {
     return mViewManagers.getViewManagerIfExists(className);
   }
 
-  /*package*/ UIViewOperationQueue getUIViewOperationQueue() {
+  public UIViewOperationQueue getUIViewOperationQueue() {
     return mOperationsQueue;
   }
 
